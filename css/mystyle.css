@@ -1,0 +1,129 @@
+body
+{
+	color: #646464;
+	font-family: Tahoma;
+	font-size: 12px;
+	margin: 0;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+ul {
+	padding:0;
+	margin:0;
+}
+#top_for_slide {
+	width:950px;	
+	height:192px;	
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	padding:0;
+}
+
+#div_for_img {
+	width:90000px;
+	height:192px;
+	position:relative;
+	padding:0;
+}
+
+#div_for_img ul li {
+	position:relative;
+	list-style:none;
+	display:block;
+	float:left;
+}
+
+.all_cal {
+	width:220px;
+	height:192px;
+	background:#f3f3f4;
+	margin:0 15px 0 5px;
+}
+.top_cal {
+	font-size:16px;
+	color:#60C4D4;
+}
+.days_name li{
+	font-size:14px;
+	color:#60C4D4;
+	width:18px;
+	height:14px;	
+}
+.week_days li{
+	font-size:15px;
+	color:#79797A;
+	width:18px;
+	height:14px;	
+}
+div.all_li ul li{
+	margin:0;
+	padding:0;
+}
+.all_cal .bottom_cal .all_li ul li {
+	text-align: center;
+	padding: 1px;
+	margin: 4px;
+}
+.bottom_cal {
+	margin-left:18px;
+}
+.top_cal span {
+	margin-left: 18px;
+	margin-top: 15px;
+	display: inline-block;
+}
+li.holiday {
+	color:#F8AD43;
+}
+.all_calendar_slider {
+	position:relative;
+	width:950px;	
+	height:192px;
+margin:0 auto;	
+}
+#nav_button_prev  {
+	position:absolute;
+	z-index: 1;
+	top: 76px;
+	left: -29px;
+	width:23px;
+	height:41px;
+	background:url('../images/prev.png');	
+	cursor:pointer;
+}
+#nav_button_next  {
+	position:absolute;
+	z-index: 1;
+	top: 76px;
+	right: -29px;
+	width:23px;
+	height:41px;
+	background:url('../images/next.png');
+	cursor:pointer;
+}
+.on_but_prev {
+	position:absolute;
+	z-index: 100;
+	top: 76px;
+	left: -29px;
+	width:23px;
+	height:41px;
+	cursor:pointer;
+}
+.on_but_next {
+	position:absolute;
+	z-index: 100;
+	top: 76px;
+	right: -29px;
+	width:23px;
+	height:41px;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
